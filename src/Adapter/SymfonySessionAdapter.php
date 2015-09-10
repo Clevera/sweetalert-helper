@@ -1,8 +1,6 @@
 <?php
 
-
-namespace Clevera\SweetAlert;
-
+namespace Clevera\SweetAlert\Adapter;
 
 use Clevera\SweetAlert\Contract\SessionInterface;
 use Symfony\Component\HttpFoundation\Session\Session;
