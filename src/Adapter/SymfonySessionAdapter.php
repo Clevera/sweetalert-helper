@@ -21,7 +21,7 @@ class SymfonySessionAdapter implements SessionInterface
 
     public function get($name, $default = null)
     {
-        return $this->session->get();
+        return $this->session->getFlashBag()->get($name);
     }
 
     public function set($name, $value)
