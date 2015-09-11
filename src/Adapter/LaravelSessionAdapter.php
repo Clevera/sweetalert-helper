@@ -3,6 +3,7 @@
 namespace Clevera\SweetAlert;
 
 use Illuminate\Support\Facades\Session;
+use Clevera\SweetAlert\Contract\SessionInterface;
 
 class LaravelSessionAdapter implements SessionInterface
 {
