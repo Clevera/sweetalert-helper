@@ -1,6 +1,6 @@
 <?php
 
-namespace Clevera\SweetAlert;
+namespace Clevera\SweetAlert\Adapter;
 
 use Illuminate\Support\Facades\Session;
 use Clevera\SweetAlert\Contract\SessionInterface;
